@@ -1,4 +1,6 @@
 .project
 .pydevproject
-
+/mat
+/results
+/data
 __pycache__/

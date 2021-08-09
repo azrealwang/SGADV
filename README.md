@@ -2,6 +2,17 @@
 
 This is source code of following paper. If using it in your research, please cite our paper.
 
+.. code-block::
+
+   @inproceedings{rauber2017foolbox,
+     title={Foolbox: A Python toolbox to benchmark the robustness of machine learning models},
+     author={Rauber, Jonas and Brendel, Wieland and Bethge, Matthias},
+     booktitle={Reliable Machine Learning in the Wild Workshop, 34th International Conference on Machine Learning},
+     year={2017},
+     url={http://arxiv.org/abs/1707.04131},
+   }
+
+
 @inproceedings{wang2021interpretable,
   title={Interpretable security analysis of cancellable biometrics using constrained-optimized similarity-based attack.},
   author={Wang, Hanrui and Dong, Xingbo and Jin, Zhe and Teoh, Andrew Beng Jin and Tistarelli, Massimo},

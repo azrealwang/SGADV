@@ -1,7 +1,4 @@
 .project
 .pydevproject
-/mat
-/results
-/data
 __pycache__/
 .idea/

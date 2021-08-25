@@ -81,7 +81,7 @@ def _samples(
     from PIL import Image
 
     images, labels = [], []
-    basepath = r"C:\Users\Hanrui Wang\Documents\Workspace\Git\PhD_Project\examples\data"
+    basepath = r"data"
     samplepath = os.path.join(basepath, f"{dataset}")
     files = os.listdir(samplepath)
     for idx in range(index, index + batchsize):

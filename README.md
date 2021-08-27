@@ -11,7 +11,7 @@ New developed tools: foolbox/utils.py
 ## Citation
 If using this project in your research, please cite our paper.
 
-*Under reviewed*
+*Under review*
 
 ## Note
 The code in the folder *foolbox* is derived from the project [foolbox](https://github.com/bethgelab/foolbox).

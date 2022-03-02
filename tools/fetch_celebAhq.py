@@ -6,10 +6,11 @@ from collections import Counter
 
 def main() -> None:
     
-    min_faces_per_person = 10 # only subjects with more than
-    subject = 158
+    min_faces_per_person = 10 # only subjects with equal or more images will be selected, only the first {min_faces_per_person} will be selected
+    subject = 158 # how many subjects to select
     
     data_home = r"C:\Users\{user_name}\Workspace\Git\{project_name}\Dataset" # replace with your own repository
+    
     # 
     txt_path = os.path.join(data_home, "CelebA-HQ")
     img_path = os.path.join(data_home, "CelebA-HQ\CelebA-HQ-img")

@@ -11,7 +11,7 @@ def main() -> None:
     
     data_home = r"C:\Users\{user_name}\Workspace\Git\{project_name}\Dataset" # replace with your own repository
     
-    # The resources as belowed are from CelebA and CelebA-HQ
+    # The resources as belowed can be found from CelebA and CelebA-HQ
     txt_path = os.path.join(data_home, "CelebA-HQ")
     img_path = os.path.join(data_home, "CelebA-HQ\CelebA-HQ-img")
     output_path = os.path.join(data_home, "tmp\CelebA-HQ")

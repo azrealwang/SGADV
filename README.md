@@ -8,8 +8,11 @@ Objective function: foolbox/attacks/gradient_descent_base.py
 
 New developed tools: foolbox/utils.py
 
-Extra tools: 
+## Extra tools 
+
 Filter objects of CelebA: tools/fetch_celebAhq.py
+
+Feature embeddings and save to .mat: tools/feature_embedding.py
 
 ## Citation
 If using this project in your research, please cite our paper.

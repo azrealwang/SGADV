@@ -1,6 +1,6 @@
 # Similarity-based Gray-box Adversarial Attack Against Deep Face Recognition
 
-Hanrui Wang<sup>1</sup>, Shuo Wang<sup>2</sup>, Zhe Jin<sup>3</sup>, Yandan Wang<sup>4</sup>, Cunjian Chen<sup>5</sup>, Massimo Tistarelli<sup>6</sup>
+Hanrui Wang, Shuo Wang, Zhe Jin, Yandan Wang, Cunjian Chen, Massimo Tistarelli
  
 [PDF](https://arxiv.org/pdf/2201.04011)
 

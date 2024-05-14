@@ -42,7 +42,11 @@ Source image name must satisfy `00000_0.jpg`. `00000` and `_0` indicates the ima
 * [FaceNet](https://github.com/timesler/facenet-pytorch): InceptionResnetV1 pretrained using the VggFace2 dataset; automatically downloaded
 
 ## Usage
-Run attack: SGADV.py
+Run attack:
+
+```
+python SGADV.py
+```
 
 Objective function: foolbox/attacks/gradient_descent_base.py
 
@@ -61,7 +65,7 @@ Feature embeddings and save to .mat: tools/feature_embedding.py
 | Dataset | EER (%) | ASR - White box(%) | ASR - Gray box(%) |
 |:---:|:----:|:-----:|:-----:|
 | FaceNet | 1.2 | 100 | 98.74 |
-| InsightFace | 6.23 | 93.23 |
+| InsightFace | 6.23 | 100 | 93.23 |
 
 ## Citation
 If using this project in your research, please cite our paper.

@@ -84,7 +84,7 @@ If using this project in your research, please cite our paper.
 
 * Images in the folder *data* are only examples from [LFW](http://vis-www.cs.umass.edu/lfw/) and [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) dataset.
 
-## Contacts
+## Contact
 If you have any questions about our work, please do not hesitate to contact us by email.
 
 Hanrui Wang: hanrui_wang@nii.ac.jp

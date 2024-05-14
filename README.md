@@ -55,24 +55,13 @@ Feature embeddings and save to .mat: tools/feature_embedding.py
 
 ## Results
 
-### Attack success rate / False acceptance rate (%)
-* The security $FAR_{attack}$ is improved.
+### Attack Success Rate (ASR)
+* The results are obtained for 1,580 images.
 
-| Defense | $FAR_{SGADV}$ (seen) | $FAR_{FGSM}$ | $FAR_{PGD}$ | $FAR_{CW}$ | $FAR_{DI^2-FGSM}$ | $FAR_{TI-FGSM}$ | $FAR_{LGC}$ | $FAR_{BIM}$ |
-|:---:|:----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| Insightface | 100.0 | 100.0 | 100.0 | 100.0 | 95.00 | 93.17 | 93.73 | 91.50 |
-| IWMF | 6.2 | 16.2 | 1.0 | 0.0 | 4.63 | 6.27 | 3.37 | 1.17 |
-| IWMF-Diff | 3.2 | 15.6 | 0.8 | 0.2 | 28.53 | 33.00 | 23.97 | 10.87 |
-
-### Authentication accuracy / False rejection rate (%)
-* The authentication accuracy $FRR_{genuine}$ is preserved.
-* The robustness of classifying adversarial examples as their true labels $FRR_{attack}$ is improved.
-
-| Defense | $FRR_{genuine}$ | $FRR_{SGADV}$ (seen) | $FRR_{FGSM}$ | $FRR_{PGD}$ | $FRR_{CW}$ |
-|:---:|:----:|:-----:|:-----:|:-----:|:-----:|
-| Insightface | 0.28 | 98.30 | 6.34 | 51.92 | 42.12 |
-| IWMF | 6.36 | 25.50 | 19.58 | 17.38 | 13.08 |
-| IWMF-Diff | 3.22 | 12.06 | 8.28 | 9.22 | 6.18 |
+| Dataset | EER (%) | ASR - White box(%) | ASR - Gray box(%) |
+|:---:|:----:|:-----:|:-----:|
+| FaceNet | 1.2 | 100 | 98.74 |
+| InsightFace | 6.23 | 93.23 |
 
 ## Citation
 If using this project in your research, please cite our paper.

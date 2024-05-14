@@ -1,4 +1,10 @@
-# Similarity-based Gray-box Adversarial Attack Against Deep Face Recognition
+# Similarity-based Gray-box Adversarial Attack Against Deep Face Recognition [pdf](https://arxiv.org/pdf/2201.04011)
+
+Hanrui Wang<sup>1</sup>, Shuo Wang<sup>2</sup>, Zhe Jin<sup>3</sup>, Yandan Wang<sup>4</sup>, Cunjian Chen<sup>5</sup>, Massimo Tistarelli<sup>6</sup>
+
+The majority of adversarial attack techniques perform well against deep face recognition when the full knowledge of the system is revealed (white-box). However, such techniques act unsuccessfully in the gray-box setting where the face templates are unknown to the attackers. In this work, we propose a similarity-based gray-box adversarial attack (SGADV) technique.
+
+<img src="figures/scenario.png" alt="scenario" style="width:400px;"/>
 
 ## Introduction
 
